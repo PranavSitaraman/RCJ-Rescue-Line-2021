@@ -1,0 +1,20 @@
+#ifndef EVAC_H
+#define EVAC_H
+void clawPickUp();
+bool FindSilver();
+bool FindBlack();
+bool Findgreen();
+float Align2Object(int);
+float Move2Object();
+boolean detectEVAC();
+int RescueZoneSearch();
+void compactRescueSearch(bool);
+int FindSilverDirection();
+int FindBlackDirection();
+void VictimRescue(float);
+void EVAC_init();
+void SearchLoop();
+void FirstNoSilverMvmt();
+void DepositVictim();
+void doEvac();
+#endif
